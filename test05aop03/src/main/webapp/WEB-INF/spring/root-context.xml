@@ -12,4 +12,6 @@
 	<bean id="testAroundAspect" class="test.com.aop03.TestAroundAspect"></bean>
 	<bean id="testBeforeAspect" class="test.com.aop03.TestBeforeAspect"></bean>
 	<bean id="testAfterAspect" class="test.com.aop03.TestAfterAspect"></bean>
+	
+	<bean id="testPointcutAspect" class="test.com.aop03.TestPointcutAspect"></bean>
 </beans>

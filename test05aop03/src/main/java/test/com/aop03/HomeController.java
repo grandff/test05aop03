@@ -45,6 +45,7 @@ public class HomeController {
 		dao.insert(vo);
 		dao.select(vo);
 		dao.update(vo);
+		dao.delete(vo);
 		
 		return "home";
 	}
